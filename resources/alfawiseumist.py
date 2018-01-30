@@ -23,8 +23,6 @@ elif args.action == 'speed1':
 	sock.sendto('{"command":"comm103","h_rank":"1","deviceid":"'+args.deviceid+'","modelid":"sj07","phoneid":"020000000000","userid":""}', (args.deviceip, 10002))
 elif args.action == 'speed2':
 	sock.sendto('{"command":"comm103","h_rank":"2","deviceid":"'+args.deviceid+'","modelid":"sj07","phoneid":"020000000000","userid":""}', (args.deviceip, 10002))
-elif args.action == 'speed2':
-	sock.sendto('{"command":"comm103","h_rank":"2","deviceid":"'+args.deviceid+'","modelid":"sj07","phoneid":"020000000000","userid":""}', (args.deviceip, 10002))
 elif args.action == 'count1':
 	sock.sendto('{"command":"comm102","countdown":"1","deviceid":"'+args.deviceid+'","modelid":"sj07","phoneid":"020000000000","userid":""}', (args.deviceip, 10002))
 elif args.action == 'count3':
