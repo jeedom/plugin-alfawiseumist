@@ -194,8 +194,9 @@ class alfawiseumistCmd extends cmd {
 		}
 		$eqLogic = $this->getEqlogic();
 		$devid = $eqLogic->getConfiguration('devid','0');
+		$devip = $eqLogic->getConfiguration('devip','255.255.255.255');
 		$action = $this->getLogicalId();
-		$cmd = system::getCmdSudo() . '/usr/bin/python ' .dirname(__FILE__) . '/../../resources/alfawiseumist.py --deviceid ' . $devid . ' --action ' . $action;
+		$cmd = system::getCmdSudo() . '/usr/bin/python ' .dirname(__FILE__) . '/../../resources/alfawiseumist.py --deviceid ' . $devid . ' --deviceip ' . $devip .  ' --action ' . $action;
 		if ($action == 'color'){
 			$color = strtolower(str_replace('#','',$_options['color']));
 			$cmd .= ' --options ' . $color;

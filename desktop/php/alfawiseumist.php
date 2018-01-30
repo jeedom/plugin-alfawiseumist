@@ -107,8 +107,14 @@ $eqLogics = eqLogic::byType('alfawiseumist');
                 </div>
      <div class="form-group">
       <label class="col-sm-3 control-label">{{Identifiant du brumisateur}}</label>
-      <div class="col-sm-4">
+      <div class="col-sm-6">
         <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="devid" placeholder="{{Identifiant donné par l'application}}"/>
+      </div>
+                </div>
+				  <div class="form-group">
+      <label class="col-sm-3 control-label">{{IP du brumisateur}}</label>
+      <div class="col-sm-6">
+        <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="devip" placeholder="{{Ip du brumisateur nécessaire que si sans cela ne fonctionne pas}}"/>
       </div>
                 </div>
             </fieldset>
