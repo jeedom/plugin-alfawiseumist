@@ -5,5 +5,7 @@
 	"licence" : "AGPL",
 	"author" : "Ludovic SARAKHA",
 	"require" : "3.0",
-	"category" : "wellness"
+	"category" : "wellness",
+	"changelog" : "https://jeedom.github.io/plugin-alfawiseumist/#language#/changelog",
+	"documentation" : "https://jeedom.github.io/plugin-alfawiseumist/#language#/"
 }
