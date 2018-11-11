@@ -47,19 +47,19 @@ commandes.
 
 -   **Arrêter le brumisateur **
 
--   **Couleur**
+-   **Farbe**
 
--   **Mode flash**
+-   **Blitz Modus**
 
--   **Mode gradient**
+-   **Farbverlauf Modus**
 
 -   **Mode quiet**
 
--   **Vitesse 0**
+-   **Geschwindigkeit 0**
 
--   **Vitesse 1**
+-   **Geschwindigkeit 1**
 
--   **Vitesse 2**
+-   **Geschwindigkeit 2**
 
 -   **1h**
 
