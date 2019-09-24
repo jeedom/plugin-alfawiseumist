@@ -91,13 +91,26 @@ $eqLogics = eqLogic::byType('alfawiseumist');
                         <select id="sel_object" class="eqLogicAttr form-control" data-l1key="object_id">
                             <option value="">{{Aucun}}</option>
                             <?php
-                            foreach (object::all() as $object) {
+                            foreach (jeeObject::all() as $object) {
                                 echo '<option value="' . $object->getId() . '">' . $object->getName() . '</option>';
                             }
                             ?>
                         </select>
                     </div>
                 </div>
+				<div class="form-group">
+            <label class="col-sm-3 control-label">{{Catégorie}}</label>
+            <div class="col-sm-9">
+              <?php
+foreach (jeedom::getConfiguration('eqLogic:category') as $key => $value) {
+	echo '<label class="checkbox-inline">';
+	echo '<input type="checkbox" class="eqLogicAttr" data-l1key="category" data-l2key="' . $key . '" />' . $value['name'];
+	echo '</label>';
+}
+?>
+
+           </div>
+         </div>
                        <div class="form-group">
                     <label class="col-sm-3 control-label"></label>
                     <div class="col-sm-9">
