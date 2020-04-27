@@ -1,0 +1,54 @@
+{
+    "plugins\/alfawiseumist\/desktop\/modal\/health.php": {
+        "Module": "",
+        "ID": "",
+        "ID produit": "",
+        "Date création": ""
+    },
+    "plugins\/alfawiseumist\/desktop\/php\/alfawiseumist.php": {
+        "401 - Accès non autorisé": "401 - Akses tidak sah",
+        "Rechercher": "Pencarian",
+        "Gestion": "Manajemen",
+        "Configuration": "Konfigurasi",
+        "Santé": "Bidang Kesehatan",
+        "Mes brumisateurs": "",
+        "Sauvegarder": "Menyimpan",
+        "Supprimer": "Menghapus",
+        "Configuration avancée": "Konfigurasi lanjutan",
+        "Equipement": "Peralatan",
+        "Commandes": "Perintah",
+        "Nom de l'équipement": "Nama peralatan",
+        "Objet parent": "Objek induk",
+        "Aucun": "Tak ada",
+        "Catégorie": "Kategori",
+        "Activer": "Mengaktifkan",
+        "Visible": "Terlihat",
+        "Identifiant du brumisateur": "",
+        "Identifiant donné par l'application": "",
+        "IP du brumisateur": "",
+        "Ip du brumisateur nécessaire que si sans cela ne fonctionne pas": "",
+        "Tableau de commandes": "",
+        "Nom": "Nama",
+        "Options": "Pilihan",
+        "Action": "Tindakan"
+    },
+    "plugins\/alfawiseumist\/desktop\/js\/alfawiseumist.js": {
+        "Santé alfawiseumist": "",
+        "Afficher": "Memenitikan",
+        "Tester": "Coba"
+    },
+    "plugins\/alfawiseumist\/core\/class\/alfawiseumist.class.php": {
+        "Arrêter le brumisateur": "",
+        "Allumer le brumisateur": "",
+        "Vitesse à 0": "",
+        "Vitesse à 1": "",
+        "Vitesse à 2": "",
+        "1h": "",
+        "3h": "",
+        "6h": "",
+        "Mode gradient": "",
+        "Mode quiet": "",
+        "Mode flash": "",
+        "Couleur": "Warna"
+    }
+}
