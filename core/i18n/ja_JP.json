@@ -1,9 +1,9 @@
 {
     "plugins\/alfawiseumist\/desktop\/modal\/health.php": {
-        "Module": "",
+        "Module": "モジュール",
         "ID": "",
         "ID produit": "",
-        "Date création": ""
+        "Date création": "作成日"
     },
     "plugins\/alfawiseumist\/desktop\/php\/alfawiseumist.php": {
         "401 - Accès non autorisé": "401-不正アクセス",

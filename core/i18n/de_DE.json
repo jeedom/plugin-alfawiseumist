@@ -2,7 +2,7 @@
     "plugins\/alfawiseumist\/desktop\/modal\/health.php": {
         "Module": "Modul",
         "ID": "Identifikation",
-        "ID produit": "",
+        "ID produit": "Produkt-ID",
         "Date création": "Erstellungsdatum"
     },
     "plugins\/alfawiseumist\/desktop\/php\/alfawiseumist.php": {
@@ -11,7 +11,7 @@
         "Gestion": "Verwaltung",
         "Configuration": "Konfiguration",
         "Santé": "Gesundheit",
-        "Mes brumisateurs": "",
+        "Mes brumisateurs": "Meine Mister",
         "Sauvegarder": "Speichern",
         "Supprimer": "Löschen",
         "Configuration avancée": "Erweiterte Konfiguration",
@@ -23,32 +23,32 @@
         "Catégorie": "Kategorie",
         "Activer": "Aktivieren",
         "Visible": "Sichtbar",
-        "Identifiant du brumisateur": "",
-        "Identifiant donné par l'application": "",
-        "IP du brumisateur": "",
-        "Ip du brumisateur nécessaire que si sans cela ne fonctionne pas": "",
-        "Tableau de commandes": "",
+        "Identifiant du brumisateur": "Nebelkennung",
+        "Identifiant donné par l'application": "Von der Anwendung angegebene Kennung",
+        "IP du brumisateur": "Fogger IP",
+        "Ip du brumisateur nécessaire que si sans cela ne fonctionne pas": "IP des Nebelgeräts nur erforderlich, wenn ohne es nicht funktioniert",
+        "Tableau de commandes": "Bedienfeld",
         "Nom": "Name",
         "Options": "Optionen",
         "Action": "Aktion"
     },
     "plugins\/alfawiseumist\/desktop\/js\/alfawiseumist.js": {
-        "Santé alfawiseumist": "",
+        "Santé alfawiseumist": "Gesundheit Alfawiseumist",
         "Afficher": "Anzeige",
         "Tester": "Test"
     },
     "plugins\/alfawiseumist\/core\/class\/alfawiseumist.class.php": {
-        "Arrêter le brumisateur": "",
-        "Allumer le brumisateur": "",
-        "Vitesse à 0": "",
-        "Vitesse à 1": "",
-        "Vitesse à 2": "",
-        "1h": "",
-        "3h": "",
-        "6h": "",
-        "Mode gradient": "",
-        "Mode quiet": "",
-        "Mode flash": "",
+        "Arrêter le brumisateur": "Stoppen Sie die Nebelmaschine",
+        "Allumer le brumisateur": "Schalten Sie die Nebelmaschine ein",
+        "Vitesse à 0": "Geschwindigkeit bei 0",
+        "Vitesse à 1": "Geschwindigkeit bei 1",
+        "Vitesse à 2": "Geschwindigkeit bei 2",
+        "1h": "1h",
+        "3h": "3h",
+        "6h": "6h",
+        "Mode gradient": "Verlaufsmodus",
+        "Mode quiet": "Ruhiger Modus",
+        "Mode flash": "Flash-Modus",
         "Couleur": "Farbe"
     }
 }
