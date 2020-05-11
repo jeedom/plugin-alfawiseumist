@@ -21,13 +21,13 @@ plugins y luego comodidad. Lo encuentras aqui :
 
 Al hacer clic en uno de sus equipos, llega a la página
 configuración de su equipo que incluye 2 pestañas, equipo y
-commandes.
+Comandos.
 
 -   **Pestaña del equipo** :
 
 -   **Nombre del equipo** : nombre de su equipo
 
--   **Activer** : activa su equipo
+-   **Activar** : activa su equipo
 
 -   **Visible** : lo hace visible en el tablero
 
@@ -47,7 +47,7 @@ commandes.
 
 -   **Detener el nebulizador **
 
--   **Couleur**
+-   **Color**
 
 -   **Modo de flash**
 

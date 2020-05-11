@@ -21,15 +21,15 @@ Plugins dann Komfort. Sie finden hier :
 
 Wenn Sie auf eines Ihrer Geräte klicken, gelangen Sie auf die Seite
 Konfiguration Ihrer Ausrüstung einschließlich 2 Registerkarten, Ausrüstung und
-commandes.
+Befehle.
 
 -   **Registerkarte Ausrüstung** :
 
 -   **Name der Ausrüstung** : Name Ihrer Ausrüstung
 
--   **Activer** : macht Ihre Ausrüstung aktiv
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv
 
--   **Visible** : macht es auf dem Dashboard sichtbar
+-   **Sichtbar** : macht es auf dem Dashboard sichtbar
 
 -   **Übergeordnetes Objekt** : gibt das übergeordnete Objekt an, zu dem es gehört
     Ausrüstung
@@ -47,7 +47,7 @@ commandes.
 
 -   **Stoppen Sie die Nebelmaschine **
 
--   **Couleur**
+-   **Farbe**
 
 -   **Flash-Modus**
 

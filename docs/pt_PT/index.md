@@ -21,15 +21,15 @@ plugins então Comfort. Você encontra aqui :
 
 Ao clicar em um dos seus equipamentos, você chega na página
 configuração do seu equipamento, incluindo 2 guias, equipamentos e
-commandes.
+Comandos.
 
 -   **Guia Equipamento** :
 
 -   **Nome de equipamentos** : nome do seu equipamento
 
--   **Activer** : torna seu equipamento ativo
+-   **Ativar** : torna seu equipamento ativo
 
--   **Visible** : torna visível no painel
+-   **Visivél** : torna visível no painel
 
 -   **Objeto pai** : indica o objeto pai ao qual pertence
     o equipamento
@@ -47,7 +47,7 @@ commandes.
 
 -   **Pare o nebulizador **
 
--   **Couleur**
+-   **Cor**
 
 -   **Modo de flash**
 

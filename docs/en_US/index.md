@@ -21,13 +21,13 @@ plugins then confort. You will find here :
 
 By clicking on one of your equipment you arrive on the page
 configuration of your equipment including 2 tabs, equipment and
-commandes.
+Commands.
 
 -   **Equipment tab** :
 
 -   **Name of equipment** : name of equipment
 
--   **Activer** : makes your equipment active
+-   **Activate** : makes your equipment active
 
 -   **Visible** : makes it visible on the dashboard
 
@@ -47,7 +47,7 @@ commandes.
 
 -   **Stop the fogger **
 
--   **Couleur**
+-   **Color**
 
 -   **Flash Mode**
 
