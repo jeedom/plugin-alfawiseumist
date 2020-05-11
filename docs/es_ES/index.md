@@ -21,7 +21,7 @@ plugins y luego comodidad. Lo encuentras aqui :
 
 Al hacer clic en uno de sus equipos, llega a la página
 configuración de su equipo que incluye 2 pestañas, equipo y
-Comandos.
+commandes.
 
 -   **Pestaña del equipo** :
 
@@ -68,5 +68,5 @@ Comandos.
 -   **6h**
 
 
-No habrá pedidos adicionales.. El modo de intensidad de luz no es en realidad un ajuste de intensidad de luz, sino que en realidad es solo un ajuste de color. En cuanto a la detección de agua si el producto no,
+No habrá pedidos adicionales. El modo de intensidad de luz no es en realidad un ajuste de intensidad de luz, sino que en realidad es solo un ajuste de color. En cuanto a la detección de agua si el producto no,
 no habrá milagro para hacerlo en Jeedom

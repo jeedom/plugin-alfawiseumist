@@ -21,7 +21,7 @@ Plugins dann Komfort. Sie finden hier :
 
 Wenn Sie auf eines Ihrer Geräte klicken, gelangen Sie auf die Seite
 Konfiguration Ihrer Ausrüstung einschließlich 2 Registerkarten, Ausrüstung und
-Befehle.
+commandes.
 
 -   **Registerkarte Ausrüstung** :
 
@@ -34,7 +34,7 @@ Befehle.
 -   **Übergeordnetes Objekt** : gibt das übergeordnete Objekt an, zu dem es gehört
     Ausrüstung
 
--   **Nebelkennung** : Dies ist die Kennung, die Sie in der Anwendung finden (im Allgemeinen ist es die Mac-Adresse des Nebelgeräts).
+-   **Nebelkennung** : Dies ist die Kennung, die Sie in der Anwendung finden (im Allgemeinen ist es die Mac-Adresse des Nebelgeräts)
 
 -   **Fogger IP** : Dieses Feld ist nicht obligatorisch. Dies ist nur dann sinnvoll, wenn Sie ein Problem haben.
 

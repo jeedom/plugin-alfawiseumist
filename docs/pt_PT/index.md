@@ -21,7 +21,7 @@ plugins então Comfort. Você encontra aqui :
 
 Ao clicar em um dos seus equipamentos, você chega na página
 configuração do seu equipamento, incluindo 2 guias, equipamentos e
-Comandos.
+commandes.
 
 -   **Guia Equipamento** :
 

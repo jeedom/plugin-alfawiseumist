@@ -21,7 +21,7 @@ plugins then confort. You will find here :
 
 By clicking on one of your equipment you arrive on the page
 configuration of your equipment including 2 tabs, equipment and
-Commands.
+commandes.
 
 -   **Equipment tab** :
 
