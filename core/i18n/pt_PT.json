@@ -1,0 +1,54 @@
+{
+    "plugins\/alfawiseumist\/desktop\/modal\/health.php": {
+        "Module": "Módulo",
+        "ID": "ID",
+        "ID produit": "ID do produto",
+        "Date création": "Data de criação"
+    },
+    "plugins\/alfawiseumist\/desktop\/php\/alfawiseumist.php": {
+        "401 - Accès non autorisé": "401 - Acesso não autorizado",
+        "Rechercher": "Pesquisa",
+        "Gestion": "Gestão",
+        "Configuration": "Configuração",
+        "Santé": "Saúde",
+        "Mes brumisateurs": "Meus misters",
+        "Sauvegarder": "Salvar",
+        "Supprimer": "Remover",
+        "Configuration avancée": "Configuração avançada",
+        "Equipement": "Equipamento",
+        "Commandes": "Comandos",
+        "Nom de l'équipement": "Nome de equipamentos",
+        "Objet parent": "Objeto pai",
+        "Aucun": "Nemhum",
+        "Catégorie": "Categoria",
+        "Activer": "Ativar",
+        "Visible": "Visivél",
+        "Identifiant du brumisateur": "Identificador de névoa",
+        "Identifiant donné par l'application": "Identificador fornecido pelo aplicativo",
+        "IP du brumisateur": "IP do Fogger",
+        "Ip du brumisateur nécessaire que si sans cela ne fonctionne pas": "Ip do nebulizador necessário apenas se sem ele não funcionar",
+        "Tableau de commandes": "Painel de controle",
+        "Nom": "Nome",
+        "Options": "Opções",
+        "Action": "Ação"
+    },
+    "plugins\/alfawiseumist\/desktop\/js\/alfawiseumist.js": {
+        "Santé alfawiseumist": "Alfawiseumist Saúde",
+        "Afficher": "Display",
+        "Tester": "Teste"
+    },
+    "plugins\/alfawiseumist\/core\/class\/alfawiseumist.class.php": {
+        "Arrêter le brumisateur": "Pare o nebulizador",
+        "Allumer le brumisateur": "Ligue o nebulizador",
+        "Vitesse à 0": "Velocidade a 0",
+        "Vitesse à 1": "Velocidade a 1",
+        "Vitesse à 2": "Velocidade a 2",
+        "1h": "1h",
+        "3h": "3h",
+        "6h": "6h",
+        "Mode gradient": "Modo gradiente",
+        "Mode quiet": "Modo silencioso",
+        "Mode flash": "Modo de flash",
+        "Couleur": "Cor"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "plugins\/alfawiseumist\/desktop\/modal\/health.php": {
+        "Module": "Module",
+        "ID": "ID",
+        "ID produit": "Product Id",
+        "Date création": "Creation Date"
+    },
+    "plugins\/alfawiseumist\/desktop\/php\/alfawiseumist.php": {
+        "401 - Accès non autorisé": "401 - Unauthorized access",
+        "Rechercher": "Search",
+        "Gestion": "Management",
+        "Configuration": "Setup",
+        "Santé": "Health",
+        "Mes brumisateurs": "My foggers",
+        "Sauvegarder": "Save",
+        "Supprimer": "Delete",
+        "Configuration avancée": "Advanced configuration",
+        "Equipement": "Equipment",
+        "Commandes": "Commands",
+        "Nom de l'équipement": "Name of equipment",
+        "Objet parent": "Parent object",
+        "Aucun": "None",
+        "Catégorie": "Category",
+        "Activer": "Activate",
+        "Visible": "Visible",
+        "Identifiant du brumisateur": "Fogger Id",
+        "Identifiant donné par l'application": "Id given by the application",
+        "IP du brumisateur": "Fogger IP",
+        "Ip du brumisateur nécessaire que si sans cela ne fonctionne pas": "Fogger Ip is mandatory otherwise won't work",
+        "Tableau de commandes": "Commands",
+        "Nom": "Name",
+        "Options": "Options",
+        "Action": "Action"
+    },
+    "plugins\/alfawiseumist\/desktop\/js\/alfawiseumist.js": {
+        "Santé alfawiseumist": "Alfawiseumist health",
+        "Afficher": "Show",
+        "Tester": "Test"
+    },
+    "plugins\/alfawiseumist\/core\/class\/alfawiseumist.class.php": {
+        "Arrêter le brumisateur": "Stop the fogger",
+        "Allumer le brumisateur": "Turn on the fogger",
+        "Vitesse à 0": "Speed 0",
+        "Vitesse à 1": "Speed 1",
+        "Vitesse à 2": "Speed 2",
+        "1h": "1h",
+        "3h": "3h",
+        "6h": "6h",
+        "Mode gradient": "Gradient Mode",
+        "Mode quiet": "Quiet Mode",
+        "Mode flash": "Flash mode",
+        "Couleur": "Color"
+    }
+}

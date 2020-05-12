@@ -1,0 +1,54 @@
+{
+    "plugins\/alfawiseumist\/desktop\/modal\/health.php": {
+        "Module": "モジュール",
+        "ID": "",
+        "ID produit": "",
+        "Date création": "作成日"
+    },
+    "plugins\/alfawiseumist\/desktop\/php\/alfawiseumist.php": {
+        "401 - Accès non autorisé": "401-不正アクセス",
+        "Rechercher": "検索",
+        "Gestion": "管理",
+        "Configuration": "コンフィギュレーション",
+        "Santé": "健康",
+        "Mes brumisateurs": "",
+        "Sauvegarder": "セーブ",
+        "Supprimer": "取り除きます",
+        "Configuration avancée": "高度な構成",
+        "Equipement": "設備",
+        "Commandes": "コマンド",
+        "Nom de l'équipement": "機器の名前",
+        "Objet parent": "親オブジェクト",
+        "Aucun": "何でもありません",
+        "Catégorie": "カテゴリ",
+        "Activer": "アクティブ",
+        "Visible": "目に見えます",
+        "Identifiant du brumisateur": "",
+        "Identifiant donné par l'application": "",
+        "IP du brumisateur": "",
+        "Ip du brumisateur nécessaire que si sans cela ne fonctionne pas": "",
+        "Tableau de commandes": "",
+        "Nom": "表題",
+        "Options": "オプション",
+        "Action": "アクション"
+    },
+    "plugins\/alfawiseumist\/desktop\/js\/alfawiseumist.js": {
+        "Santé alfawiseumist": "",
+        "Afficher": "ディスプレイ",
+        "Tester": "テスト"
+    },
+    "plugins\/alfawiseumist\/core\/class\/alfawiseumist.class.php": {
+        "Arrêter le brumisateur": "",
+        "Allumer le brumisateur": "",
+        "Vitesse à 0": "",
+        "Vitesse à 1": "",
+        "Vitesse à 2": "",
+        "1h": "",
+        "3h": "",
+        "6h": "",
+        "Mode gradient": "",
+        "Mode quiet": "",
+        "Mode flash": "",
+        "Couleur": "カラー"
+    }
+}
