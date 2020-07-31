@@ -50,5 +50,8 @@
         "Mode quiet": "",
         "Mode flash": "",
         "Couleur": "цвет"
+    },
+    "info.json": {
+        "Plugin pour contrôler les brumisateurs Alfawise": ""
     }
 }

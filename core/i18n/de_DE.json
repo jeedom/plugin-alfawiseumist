@@ -50,5 +50,8 @@
         "Mode quiet": "Ruhiger Modus",
         "Mode flash": "Flash-Modus",
         "Couleur": "Farbe"
+    },
+    "info.json": {
+        "Plugin pour contrôler les brumisateurs Alfawise": "Plugin zur Steuerung von Alfawise-Nebelgeräten"
     }
 }
