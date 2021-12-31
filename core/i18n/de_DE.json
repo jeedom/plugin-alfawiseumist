@@ -1,0 +1,57 @@
+{
+    "plugins\/alfawiseumist\/desktop\/modal\/health.php": {
+        "Module": "Modul",
+        "ID": "Identifikation",
+        "ID produit": "Produkt-ID",
+        "Date création": "Erstellungsdatum"
+    },
+    "plugins\/alfawiseumist\/desktop\/php\/alfawiseumist.php": {
+        "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
+        "Rechercher": "Suchen nach",
+        "Gestion": "Verwaltung",
+        "Configuration": "Konfiguration",
+        "Santé": "Gesundheit",
+        "Mes brumisateurs": "Meine Mister",
+        "Sauvegarder": "Speichern",
+        "Supprimer": "Löschen",
+        "Configuration avancée": "Erweiterte Konfiguration",
+        "Equipement": "Gerät",
+        "Commandes": "Befehle",
+        "Nom de l'équipement": "Name der Ausrüstung",
+        "Objet parent": "Übergeordnetes Objekt",
+        "Aucun": "Ohne",
+        "Catégorie": "Kategorie",
+        "Activer": "Aktivieren",
+        "Visible": "Sichtbar",
+        "Identifiant du brumisateur": "Nebelkennung",
+        "Identifiant donné par l'application": "Von der Anwendung angegebene Kennung",
+        "IP du brumisateur": "Fogger IP",
+        "Ip du brumisateur nécessaire que si sans cela ne fonctionne pas": "IP des Nebelgeräts nur erforderlich, wenn ohne es nicht funktioniert",
+        "Tableau de commandes": "Bedienfeld",
+        "Nom": "Name",
+        "Options": "Optionen",
+        "Action": "Aktion"
+    },
+    "plugins\/alfawiseumist\/desktop\/js\/alfawiseumist.js": {
+        "Santé alfawiseumist": "Gesundheit Alfawiseumist",
+        "Afficher": "Anzeige",
+        "Tester": "Test"
+    },
+    "plugins\/alfawiseumist\/core\/class\/alfawiseumist.class.php": {
+        "Arrêter le brumisateur": "Stoppen Sie die Nebelmaschine",
+        "Allumer le brumisateur": "Schalten Sie die Nebelmaschine ein",
+        "Vitesse à 0": "Geschwindigkeit bei 0",
+        "Vitesse à 1": "Geschwindigkeit bei 1",
+        "Vitesse à 2": "Geschwindigkeit bei 2",
+        "1h": "1h",
+        "3h": "3h",
+        "6h": "6h",
+        "Mode gradient": "Verlaufsmodus",
+        "Mode quiet": "Ruhiger Modus",
+        "Mode flash": "Flash-Modus",
+        "Couleur": "Farbe"
+    },
+    "info.json": {
+        "Plugin pour contrôler les brumisateurs Alfawise": "Plugin zur Steuerung von Alfawise-Nebelgeräten"
+    }
+}

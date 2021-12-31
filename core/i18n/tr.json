@@ -1,0 +1,57 @@
+{
+    "plugins\/alfawiseumist\/desktop\/modal\/health.php": {
+        "Module": "Modul",
+        "ID": "Kimlik",
+        "ID produit": "",
+        "Date création": "Oluşturma tarihi"
+    },
+    "plugins\/alfawiseumist\/desktop\/php\/alfawiseumist.php": {
+        "401 - Accès non autorisé": "401 - Yetkisiz erişim",
+        "Rechercher": "Arayın",
+        "Gestion": "Idare",
+        "Configuration": "Ayar",
+        "Santé": "Sağlık",
+        "Mes brumisateurs": "",
+        "Sauvegarder": "Kaydet",
+        "Supprimer": "Sil",
+        "Configuration avancée": "Gelişmiş ayarlar",
+        "Equipement": "Cihaz",
+        "Commandes": "Komutalar",
+        "Nom de l'équipement": "Ekipman ismi",
+        "Objet parent": "Üst nesne",
+        "Aucun": "Hiçbir",
+        "Catégorie": "Kategori",
+        "Activer": "Etkinleştir",
+        "Visible": "Görülebilir",
+        "Identifiant du brumisateur": "",
+        "Identifiant donné par l'application": "",
+        "IP du brumisateur": "",
+        "Ip du brumisateur nécessaire que si sans cela ne fonctionne pas": "",
+        "Tableau de commandes": "",
+        "Nom": "İsim",
+        "Options": "Opsiyonlar",
+        "Action": "Eylem"
+    },
+    "plugins\/alfawiseumist\/desktop\/js\/alfawiseumist.js": {
+        "Santé alfawiseumist": "",
+        "Afficher": "Göster",
+        "Tester": "Test et"
+    },
+    "plugins\/alfawiseumist\/core\/class\/alfawiseumist.class.php": {
+        "Arrêter le brumisateur": "",
+        "Allumer le brumisateur": "",
+        "Vitesse à 0": "",
+        "Vitesse à 1": "",
+        "Vitesse à 2": "",
+        "1h": "",
+        "3h": "",
+        "6h": "",
+        "Mode gradient": "",
+        "Mode quiet": "",
+        "Mode flash": "",
+        "Couleur": "Renk"
+    },
+    "info.json": {
+        "Plugin pour contrôler les brumisateurs Alfawise": ""
+    }
+}

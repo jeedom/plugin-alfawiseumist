@@ -1,0 +1,57 @@
+{
+    "plugins\/alfawiseumist\/desktop\/modal\/health.php": {
+        "Module": "Modulo",
+        "ID": "Identificación",
+        "ID produit": "Identificación del producto",
+        "Date création": "Fecha de creación"
+    },
+    "plugins\/alfawiseumist\/desktop\/php\/alfawiseumist.php": {
+        "401 - Accès non autorisé": "401 - Acceso no autorizado",
+        "Rechercher": "Buscar",
+        "Gestion": "Gestión",
+        "Configuration": "Configuración",
+        "Santé": "Salud",
+        "Mes brumisateurs": "Mis señores",
+        "Sauvegarder": "Guardar",
+        "Supprimer": "Borrar",
+        "Configuration avancée": "Configuración avanzada",
+        "Equipement": "Dispositivos",
+        "Commandes": "Comandos",
+        "Nom de l'équipement": "Nombre del equipo",
+        "Objet parent": "Objeto padre",
+        "Aucun": "Ninguna",
+        "Catégorie": "Categoría",
+        "Activer": "Activar",
+        "Visible": "Visible",
+        "Identifiant du brumisateur": "Identificador de niebla",
+        "Identifiant donné par l'application": "Identificador proporcionado por la aplicación",
+        "IP du brumisateur": "Fogger IP",
+        "Ip du brumisateur nécessaire que si sans cela ne fonctionne pas": "Se requiere Ip del nebulizador solo si sin él no funciona",
+        "Tableau de commandes": "Panel de control",
+        "Nom": "Nombre",
+        "Options": "Opciones",
+        "Action": "Acción"
+    },
+    "plugins\/alfawiseumist\/desktop\/js\/alfawiseumist.js": {
+        "Santé alfawiseumist": "Salud alfawiseumist",
+        "Afficher": "Mostrar",
+        "Tester": "Probar"
+    },
+    "plugins\/alfawiseumist\/core\/class\/alfawiseumist.class.php": {
+        "Arrêter le brumisateur": "Detener el nebulizador",
+        "Allumer le brumisateur": "Enciende el nebulizador",
+        "Vitesse à 0": "Velocidad a 0",
+        "Vitesse à 1": "Velocidad a 1",
+        "Vitesse à 2": "Velocidad a 2",
+        "1h": "1h",
+        "3h": "3h",
+        "6h": "6h",
+        "Mode gradient": "Modo gradiente",
+        "Mode quiet": "Modo tranquilo",
+        "Mode flash": "Modo de flash",
+        "Couleur": "Color"
+    },
+    "info.json": {
+        "Plugin pour contrôler les brumisateurs Alfawise": "Complemento para controlar los nebulizadores Alfawise"
+    }
+}

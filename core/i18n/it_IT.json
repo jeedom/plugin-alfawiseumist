@@ -1,0 +1,57 @@
+{
+    "plugins\/alfawiseumist\/desktop\/modal\/health.php": {
+        "Module": "Modulo",
+        "ID": "",
+        "ID produit": "",
+        "Date création": "Data di creazione"
+    },
+    "plugins\/alfawiseumist\/desktop\/php\/alfawiseumist.php": {
+        "401 - Accès non autorisé": "401 - Accesso non autorizzato",
+        "Rechercher": "Ricercare",
+        "Gestion": "Gestione",
+        "Configuration": "Configurazione",
+        "Santé": "Salute",
+        "Mes brumisateurs": "",
+        "Sauvegarder": "Salva",
+        "Supprimer": "Rimuovere",
+        "Configuration avancée": "Configurazione avanzata",
+        "Equipement": "Dispositivo",
+        "Commandes": "Comandi",
+        "Nom de l'équipement": "Nome dispositivo",
+        "Objet parent": "Oggetto padre",
+        "Aucun": "Nessuno",
+        "Catégorie": "Categoria",
+        "Activer": "Attivare",
+        "Visible": "Visibile",
+        "Identifiant du brumisateur": "",
+        "Identifiant donné par l'application": "",
+        "IP du brumisateur": "",
+        "Ip du brumisateur nécessaire que si sans cela ne fonctionne pas": "",
+        "Tableau de commandes": "",
+        "Nom": "Nome",
+        "Options": "Opzioni",
+        "Action": "Azione"
+    },
+    "plugins\/alfawiseumist\/desktop\/js\/alfawiseumist.js": {
+        "Santé alfawiseumist": "",
+        "Afficher": "Mostra",
+        "Tester": "Prova"
+    },
+    "plugins\/alfawiseumist\/core\/class\/alfawiseumist.class.php": {
+        "Arrêter le brumisateur": "",
+        "Allumer le brumisateur": "",
+        "Vitesse à 0": "",
+        "Vitesse à 1": "",
+        "Vitesse à 2": "",
+        "1h": "",
+        "3h": "",
+        "6h": "",
+        "Mode gradient": "",
+        "Mode quiet": "",
+        "Mode flash": "",
+        "Couleur": "Colore"
+    },
+    "info.json": {
+        "Plugin pour contrôler les brumisateurs Alfawise": ""
+    }
+}
