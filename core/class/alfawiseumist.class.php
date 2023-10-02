@@ -24,21 +24,112 @@ class alfawiseumist extends eqLogic {
 	public function getImage(){
 		return 'plugins/alfawiseumist/plugin_info/alfawiseumist_icon.png';
 	}
+
+	/*     * ***********************Methode static*************************** */
+    public static function cron() {
+		$eqLogics = eqLogic::byType('alfawiseumist', true);
+        foreach ($eqLogics as $eqLogic) {
+            log::add('alfawiseumist', 'debug', 'Rafraîchissement de alfawise : ' . $eqLogic->getName());
+            $refreshcmd = alfawiseumistcmd::byEqLogicIdAndLogicalId($eqLogic->getId(),'read');
+            $refreshcmd->execCmd();
+        }
+	}
+    
 	
 	public function postSave() {
-		$off = $this->getCmd(null, 'off');
-		if (!is_object($off)) {
-			$off = new alfawiseumistcmd();
-			$off->setLogicalId('off');
-			$off->setDisplay('icon','<i class="fa fa-times"></i>');
-			$off->setIsVisible(1);
-			$off->setName(__('Arrêter le brumisateur', __FILE__));
+		// Infos
+		$state = $this->getCmd(null, 'state');
+		if (!is_object($state)) {
+				$state = new alfawiseumistcmd();
+				$state->setLogicalId('state');
+				$state->setDisplay('generic_type', 'ENERGY_STATE');
+				$state->setIsVisible(1);
+				$state->setName(__('Actif', __FILE__));
 		}
-		$off->setType('action');
-		$off->setSubType('other');
-		$off->setEqLogic_id($this->getId());
-		$off->save();
-		
+		$state->setType('info');
+		$state->setSubType('binary');
+		$state->setEqLogic_id($this->getId());
+		$state->save();
+
+		$rgb = $this->getCmd(null, 'rgb');
+		if (!is_object($rgb)) {
+				$rgb = new alfawiseumistcmd();
+				$rgb->setLogicalId('rgb');
+				$rgb->setIsVisible(0);
+				$rgb->setName(__('Couleur', __FILE__));
+		}
+		$rgb->setType('info');
+		$rgb->setSubType('string');
+		$rgb->setEqLogic_id($this->getId());
+		$rgb->save();
+
+		$countdown = $this->getCmd(null, 'countdown');
+		if (!is_object($countdown)) {
+				$countdown = new alfawiseumistcmd();
+				$countdown->setLogicalId('countdown');
+				$countdown->setIsVisible(0);
+				$countdown->setName(__('Compte à rebours', __FILE__));
+		}
+		$countdown->setType('info');
+        $countdown->setSubType('numeric');
+		$countdown->setUnite('s');
+		$countdown->setEqLogic_id($this->getId());
+		$countdown->save();
+
+		$speedMode = $this->getCmd(null, 'speed-mode');
+		if (!is_object($speedMode)) {
+				$speedMode = new alfawiseumistcmd();
+				$speedMode->setLogicalId('speed-mode');
+				$speedMode->setIsVisible(0);
+				$speedMode->setName(__('Vitesse Mode', __FILE__));
+		}
+		$speedMode->setType('info');
+		$speedMode->setSubType('numeric');
+		$speedMode->setEqLogic_id($this->getId());
+		$speedMode->save();
+
+		$lightMode = $this->getCmd(null, 'light-mode');
+		if (!is_object($lightMode)) {
+				$lightMode = new alfawiseumistcmd();
+				$lightMode->setLogicalId('light-mode');
+				$lightMode->setDisplay('generic_type', 'LIGHT_MODE');
+				$lightMode->setIsVisible(0);
+				$lightMode->setName(__('Lumiere Mode', __FILE__));
+		}
+		$lightMode->setType('info');
+		$lightMode->setSubType('numeric');
+		$lightMode->setEqLogic_id($this->getId());
+		$lightMode->save();
+
+
+		$countdownFormated = $this->getCmd(null, 'countdown-formated');
+		if (!is_object($countdownFormated)) {
+				$countdownFormated = new alfawiseumistcmd();
+				$countdownFormated->setLogicalId('countdown-formated');
+				$countdownFormated->setIsVisible(1);
+				$countdownFormated->setName(__('Temps Restant', __FILE__));
+		}
+		$countdownFormated->setType('info');
+		$countdownFormated->setSubType('string');
+		$countdownFormated->setEqLogic_id($this->getId());
+		$countdownFormated->save();
+
+
+
+		// Actions
+		$read = $this->getCmd(null, 'read');
+		if (!is_object($read)) {
+			$read = new alfawiseumistcmd();
+			$read->setLogicalId('read');
+			$read->setDisplay('icon','<i class="fa fa-refresh"></i>');
+                        $read->setIsVisible(1);
+			$read->setName(__('Rafraichir', __FILE__));
+		}
+		$read->setType('action');
+		$read->setSubType('other');
+		$read->setEqLogic_id($this->getId());
+		$read->save();
+
 		$on = $this->getCmd(null, 'on');
 		if (!is_object($on)) {
 			$on = new alfawiseumistcmd();
@@ -51,46 +142,20 @@ class alfawiseumist extends eqLogic {
 		$on->setSubType('other');
 		$on->setEqLogic_id($this->getId());
 		$on->save();
-		
-		$speed0 = $this->getCmd(null, 'speed0');
-		if (!is_object($speed0)) {
-			$speed0 = new alfawiseumistcmd();
-			$speed0->setLogicalId('speed0');
-			$speed0->setDisplay('icon','<i class="fa fa-times-circle"></i>');
-			$speed0->setIsVisible(1);
-			$speed0->setName(__('Vitesse à 0', __FILE__));
+
+		$off = $this->getCmd(null, 'off');
+		if (!is_object($off)) {
+			$off = new alfawiseumistcmd();
+			$off->setLogicalId('off');
+			$off->setDisplay('icon','<i class="fa fa-times"></i>');
+			$off->setIsVisible(1);
+			$off->setName(__('Arrêter le brumisateur', __FILE__));
 		}
-		$speed0->setType('action');
-		$speed0->setSubType('other');
-		$speed0->setEqLogic_id($this->getId());
-		$speed0->save();
-		
-		$speed1 = $this->getCmd(null, 'speed1');
-		if (!is_object($speed1)) {
-			$speed1 = new alfawiseumistcmd();
-			$speed1->setLogicalId('speed1');
-			$speed1->setDisplay('icon','<i class="fa fa-minus-circle"></i>');
-			$speed1->setIsVisible(1);
-			$speed1->setName(__('Vitesse à 1', __FILE__));
-		}
-		$speed1->setType('action');
-		$speed1->setSubType('other');
-		$speed1->setEqLogic_id($this->getId());
-		$speed1->save();
-		
-		$speed2 = $this->getCmd(null, 'speed2');
-		if (!is_object($speed2)) {
-			$speed2 = new alfawiseumistcmd();
-			$speed2->setLogicalId('speed2');
-			$speed2->setDisplay('icon','<i class="fa fa-plus-circle"></i>');
-			$speed2->setIsVisible(1);
-			$speed2->setName(__('Vitesse à 2', __FILE__));
-		}
-		$speed2->setType('action');
-		$speed2->setSubType('other');
-		$speed2->setEqLogic_id($this->getId());
-		$speed2->save();
-		
+		$off->setType('action');
+		$off->setSubType('other');
+		$off->setEqLogic_id($this->getId());
+		$off->save();
+
 		$count1 = $this->getCmd(null, 'count1');
 		if (!is_object($count1)) {
 			$count1 = new alfawiseumistcmd();
@@ -126,57 +191,48 @@ class alfawiseumist extends eqLogic {
 		$count6->setSubType('other');
 		$count6->setEqLogic_id($this->getId());
 		$count6->save();
-		
-		$gradient = $this->getCmd(null, 'gradient');
-		if (!is_object($gradient)) {
-			$gradient = new alfawiseumistcmd();
-			$gradient->setLogicalId('gradient');
-			$gradient->setIsVisible(1);
-			$gradient->setDisplay('icon','<i class="fa fa-random"></i>');
-			$gradient->setName(__('Mode gradient', __FILE__));
+
+		$speedSet = $this->getCmd(null, 'speed-set');
+		if (!is_object($speedSet)) {
+			$speedSet = new alfawiseumistcmd();
+			$speedSet->setLogicalId('speed-set');
+			$speedSet->setIsVisible(1);
+			$speedSet->setName(__('Vitesse', __FILE__));
 		}
-		$gradient->setType('action');
-		$gradient->setSubType('other');
-		$gradient->setEqLogic_id($this->getId());
-		$gradient->save();
-		
-		$quiet = $this->getCmd(null, 'quiet');
-		if (!is_object($quiet)) {
-			$quiet = new alfawiseumistcmd();
-			$quiet->setLogicalId('quiet');
-			$quiet->setDisplay('icon','<i class="fa fa-asterisk"></i>');
-			$quiet->setIsVisible(1);
-			$quiet->setName(__('Mode quiet', __FILE__));
+		$speedSet->setType('action');
+		$speedSet->setSubType('slider');
+		$speedSet->setConfiguration('minValue', 0);
+		$speedSet->setConfiguration('maxValue', 2);
+		$speedSet->setValue($speedMode->getId());
+		$speedSet->setEqLogic_id($this->getId());
+		$speedSet->save();
+
+		$lightModeSet = $this->getCmd(null, 'light-set');
+		if (!is_object($lightModeSet)) {
+			$lightModeSet = new alfawiseumistcmd();
+			$lightModeSet->setLogicalId('light-set');
+			$lightModeSet->setIsVisible(1);
+			$lightModeSet->setName(__('Lumiere Style', __FILE__));
 		}
-		$quiet->setType('action');
-		$quiet->setSubType('other');
-		$quiet->setEqLogic_id($this->getId());
-		$quiet->save();
-		
-		$flash = $this->getCmd(null, 'flash');
-		if (!is_object($flash)) {
-			$flash = new alfawiseumistcmd();
-			$flash->setLogicalId('flash');
-			$flash->setDisplay('icon','<i class="fa fa-bolt"></i>');
-			$flash->setIsVisible(1);
-			$flash->setName(__('Mode flash', __FILE__));
+		$lightModeSet->setType('action');
+		$lightModeSet->setSubType('select');
+		$lightModeSet->setConfiguration('listValue', '1|quiet;2|gradient;3|flash');
+		$lightModeSet->setValue($lightMode->getId());
+		$lightModeSet->setEqLogic_id($this->getId());
+		$lightModeSet->save();
+
+		$colorSet = $this->getCmd(null, 'color-set');
+		if (!is_object($colorSet)) {
+			$colorSet = new alfawiseumistcmd();
+			$colorSet->setLogicalId('color-set');
+			$colorSet->setIsVisible(1);
+			$colorSet->setName(__('Définir Couleur', __FILE__));
 		}
-		$flash->setType('action');
-		$flash->setSubType('other');
-		$flash->setEqLogic_id($this->getId());
-		$flash->save();
-		
-		$color = $this->getCmd(null, 'color');
-		if (!is_object($color)) {
-			$color = new alfawiseumistcmd();
-			$color->setLogicalId('color');
-			$color->setIsVisible(1);
-			$color->setName(__('Couleur', __FILE__));
-		}
-		$color->setType('action');
-		$color->setSubType('color');
-		$color->setEqLogic_id($this->getId());
-		$color->save();
+		$colorSet->setType('action');
+		$colorSet->setSubType('color');
+		$colorSet->setEqLogic_id($this->getId());
+		$colorSet->setValue($rgb->getId());
+		$colorSet->save();
 	}
 }
 
@@ -196,13 +252,39 @@ class alfawiseumistCmd extends cmd {
 		$devid = $eqLogic->getConfiguration('devid','0');
 		$devip = $eqLogic->getConfiguration('devip','255.255.255.255');
 		$action = $this->getLogicalId();
+
+		switch($action) {
+			case 'speed-set':
+				$action = 'speed'.$_options['slider'];
+				break;
+			case 'light-set':
+				$action = 'light'.$_options['select'];
+				break;
+			case 'color-set':
+				$action = 'color';
+				break;
+		}
+
 		$cmd = system::getCmdSudo() . '/usr/bin/python ' .dirname(__FILE__) . '/../../resources/alfawiseumist.py --deviceid ' . $devid . ' --deviceip ' . $devip .  ' --action ' . $action;
 		if ($action == 'color'){
 			$color = strtolower(str_replace('#','',$_options['color']));
 			$cmd .= ' --options ' . $color;
 		}
 		log::add('alfawiseumist','debug','Execution de la commande suivante : ' .$cmd);
-		$result=shell_exec($cmd);
+		$result = shell_exec($cmd);
+		log::add('alfawiseumist','debug','Resultat de la commande : ' .$result);
+		if ($result !== null) {
+			$infos = @json_decode($result, true);
+			if (isset($infos['sa_ctrl'])) { $eqLogic->checkAndUpdateCmd('state', $infos['sa_ctrl']); }
+			if (isset($infos['l_color'])) { $eqLogic->checkAndUpdateCmd('rgb', '#'.$infos['l_color']); }
+			if (isset($infos['countdown'])) {
+				$seconds = hexdec($infos['countdown']);
+				$eqLogic->checkAndUpdateCmd('countdown', $seconds);
+				$eqLogic->checkAndUpdateCmd('countdown-formated', gmdate("H:i:s", $seconds));
+			}
+			if (isset($infos['h_rank'])) { $eqLogic->checkAndUpdateCmd('speed-mode', $infos['h_rank']); }
+			if (isset($infos['l_mode'])) { $eqLogic->checkAndUpdateCmd('light-mode', $infos['l_mode']); }
+		}
 	}
 
 	/************************Getteur Setteur****************************/
