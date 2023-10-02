@@ -38,18 +38,21 @@
         "Tester": "Test"
     },
     "plugins\/alfawiseumist\/core\/class\/alfawiseumist.class.php": {
-        "Arrêter le brumisateur": "Stop the fogger",
+        "Actif": "Active",
+        "Couleur": "Color",
+        "Compte à rebours": "Countdown",
+        "Vitesse Mode": "Speed Mode",
+        "Lumiere Mode": "Fashion Light",
+        "Temps Restant": "Remaining time",
+        "Rafraichir": "Refresh",
         "Allumer le brumisateur": "Turn on the fogger",
-        "Vitesse à 0": "Speed 0",
-        "Vitesse à 1": "Speed 1",
-        "Vitesse à 2": "Speed 2",
+        "Arrêter le brumisateur": "Stop the fogger",
         "1h": "1h",
         "3h": "3h",
         "6h": "6h",
-        "Mode gradient": "Gradient Mode",
-        "Mode quiet": "Quiet Mode",
-        "Mode flash": "Flash mode",
-        "Couleur": "Color"
+        "Vitesse": "Speed",
+        "Lumiere Style": "Light Style",
+        "Définir Couleur": "Set Color"
     },
     "info.json": {
         "Plugin pour contrôler les brumisateurs Alfawise": "Plugin to control Alfawise foggers"

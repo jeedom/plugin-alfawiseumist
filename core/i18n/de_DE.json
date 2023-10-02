@@ -38,18 +38,21 @@
         "Tester": "Test"
     },
     "plugins\/alfawiseumist\/core\/class\/alfawiseumist.class.php": {
-        "Arrêter le brumisateur": "Stoppen Sie die Nebelmaschine",
+        "Actif": "Aktiv",
+        "Couleur": "Farbe",
+        "Compte à rebours": "Countdown",
+        "Vitesse Mode": "Geschwindigkeitsmodus",
+        "Lumiere Mode": "Modelicht",
+        "Temps Restant": "Verbleibende Zeit",
+        "Rafraichir": "Aktualisierung",
         "Allumer le brumisateur": "Schalten Sie die Nebelmaschine ein",
-        "Vitesse à 0": "Geschwindigkeit bei 0",
-        "Vitesse à 1": "Geschwindigkeit bei 1",
-        "Vitesse à 2": "Geschwindigkeit bei 2",
+        "Arrêter le brumisateur": "Stoppen Sie die Nebelmaschine",
         "1h": "1h",
         "3h": "3h",
         "6h": "6h",
-        "Mode gradient": "Verlaufsmodus",
-        "Mode quiet": "Ruhiger Modus",
-        "Mode flash": "Flash-Modus",
-        "Couleur": "Farbe"
+        "Vitesse": "Geschwindigkeit",
+        "Lumiere Style": "Leichter Stil",
+        "Définir Couleur": "Farbe festlegen"
     },
     "info.json": {
         "Plugin pour contrôler les brumisateurs Alfawise": "Plugin zur Steuerung von Alfawise-Nebelgeräten"

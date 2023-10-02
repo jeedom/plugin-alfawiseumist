@@ -1,8 +1,8 @@
 {
     "plugins\/alfawiseumist\/desktop\/modal\/health.php": {
         "Module": "モジュール",
-        "ID": "",
-        "ID produit": "",
+        "ID": "ID",
+        "ID produit": "ID produit",
         "Date création": "作成日"
     },
     "plugins\/alfawiseumist\/desktop\/php\/alfawiseumist.php": {
@@ -11,7 +11,7 @@
         "Gestion": "管理",
         "Configuration": "コンフィギュレーション",
         "Santé": "健康",
-        "Mes brumisateurs": "",
+        "Mes brumisateurs": "Mes brumisateurs",
         "Sauvegarder": "セーブ",
         "Supprimer": "取り除きます",
         "Configuration avancée": "高度な構成",
@@ -23,35 +23,38 @@
         "Catégorie": "カテゴリ",
         "Activer": "アクティブ",
         "Visible": "目に見えます",
-        "Identifiant du brumisateur": "",
-        "Identifiant donné par l'application": "",
-        "IP du brumisateur": "",
-        "Ip du brumisateur nécessaire que si sans cela ne fonctionne pas": "",
-        "Tableau de commandes": "",
+        "Identifiant du brumisateur": "Identifiant du brumisateur",
+        "Identifiant donné par l'application": "Identifiant donné par l'application",
+        "IP du brumisateur": "IP du brumisateur",
+        "Ip du brumisateur nécessaire que si sans cela ne fonctionne pas": "Ip du brumisateur nécessaire que si sans cela ne fonctionne pas",
+        "Tableau de commandes": "Tableau de commandes",
         "Nom": "表題",
         "Options": "オプション",
         "Action": "アクション"
     },
     "plugins\/alfawiseumist\/desktop\/js\/alfawiseumist.js": {
-        "Santé alfawiseumist": "",
+        "Santé alfawiseumist": "Santé alfawiseumist",
         "Afficher": "ディスプレイ",
         "Tester": "テスト"
     },
     "plugins\/alfawiseumist\/core\/class\/alfawiseumist.class.php": {
-        "Arrêter le brumisateur": "",
-        "Allumer le brumisateur": "",
-        "Vitesse à 0": "",
-        "Vitesse à 1": "",
-        "Vitesse à 2": "",
-        "1h": "",
-        "3h": "",
-        "6h": "",
-        "Mode gradient": "",
-        "Mode quiet": "",
-        "Mode flash": "",
-        "Couleur": "カラー"
+        "Actif": "Actif",
+        "Couleur": "カラー",
+        "Compte à rebours": "Compte à rebours",
+        "Vitesse Mode": "Vitesse Mode",
+        "Lumiere Mode": "Lumiere Mode",
+        "Temps Restant": "Temps Restant",
+        "Rafraichir": "Rafraichir",
+        "Allumer le brumisateur": "Allumer le brumisateur",
+        "Arrêter le brumisateur": "Arrêter le brumisateur",
+        "1h": "1h",
+        "3h": "3h",
+        "6h": "6h",
+        "Vitesse": "Vitesse",
+        "Lumiere Style": "Lumiere Style",
+        "Définir Couleur": "Définir Couleur"
     },
     "info.json": {
-        "Plugin pour contrôler les brumisateurs Alfawise": ""
+        "Plugin pour contrôler les brumisateurs Alfawise": "Plugin pour contrôler les brumisateurs Alfawise"
     }
 }

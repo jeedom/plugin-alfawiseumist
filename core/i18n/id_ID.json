@@ -1,8 +1,8 @@
 {
     "plugins\/alfawiseumist\/desktop\/modal\/health.php": {
         "Module": "Modul",
-        "ID": "",
-        "ID produit": "",
+        "ID": "ID",
+        "ID produit": "ID produit",
         "Date création": "Tanggal pembuatan"
     },
     "plugins\/alfawiseumist\/desktop\/php\/alfawiseumist.php": {
@@ -11,7 +11,7 @@
         "Gestion": "Manajemen",
         "Configuration": "Konfigurasi",
         "Santé": "Bidang Kesehatan",
-        "Mes brumisateurs": "",
+        "Mes brumisateurs": "Mes brumisateurs",
         "Sauvegarder": "Menyimpan",
         "Supprimer": "Menghapus",
         "Configuration avancée": "Konfigurasi lanjutan",
@@ -23,35 +23,38 @@
         "Catégorie": "Kategori",
         "Activer": "Mengaktifkan",
         "Visible": "Terlihat",
-        "Identifiant du brumisateur": "",
-        "Identifiant donné par l'application": "",
-        "IP du brumisateur": "",
-        "Ip du brumisateur nécessaire que si sans cela ne fonctionne pas": "",
-        "Tableau de commandes": "",
+        "Identifiant du brumisateur": "Identifiant du brumisateur",
+        "Identifiant donné par l'application": "Identifiant donné par l'application",
+        "IP du brumisateur": "IP du brumisateur",
+        "Ip du brumisateur nécessaire que si sans cela ne fonctionne pas": "Ip du brumisateur nécessaire que si sans cela ne fonctionne pas",
+        "Tableau de commandes": "Tableau de commandes",
         "Nom": "Nama",
         "Options": "Pilihan",
         "Action": "Tindakan"
     },
     "plugins\/alfawiseumist\/desktop\/js\/alfawiseumist.js": {
-        "Santé alfawiseumist": "",
+        "Santé alfawiseumist": "Santé alfawiseumist",
         "Afficher": "Memenitikan",
         "Tester": "Coba"
     },
     "plugins\/alfawiseumist\/core\/class\/alfawiseumist.class.php": {
-        "Arrêter le brumisateur": "",
-        "Allumer le brumisateur": "",
-        "Vitesse à 0": "",
-        "Vitesse à 1": "",
-        "Vitesse à 2": "",
-        "1h": "",
-        "3h": "",
-        "6h": "",
-        "Mode gradient": "",
-        "Mode quiet": "",
-        "Mode flash": "",
-        "Couleur": "Warna"
+        "Actif": "Actif",
+        "Couleur": "Warna",
+        "Compte à rebours": "Compte à rebours",
+        "Vitesse Mode": "Vitesse Mode",
+        "Lumiere Mode": "Lumiere Mode",
+        "Temps Restant": "Temps Restant",
+        "Rafraichir": "Rafraichir",
+        "Allumer le brumisateur": "Allumer le brumisateur",
+        "Arrêter le brumisateur": "Arrêter le brumisateur",
+        "1h": "1h",
+        "3h": "3h",
+        "6h": "6h",
+        "Vitesse": "Vitesse",
+        "Lumiere Style": "Lumiere Style",
+        "Définir Couleur": "Définir Couleur"
     },
     "info.json": {
-        "Plugin pour contrôler les brumisateurs Alfawise": ""
+        "Plugin pour contrôler les brumisateurs Alfawise": "Plugin pour contrôler les brumisateurs Alfawise"
     }
 }

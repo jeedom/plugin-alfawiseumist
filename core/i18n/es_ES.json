@@ -38,18 +38,21 @@
         "Tester": "Probar"
     },
     "plugins\/alfawiseumist\/core\/class\/alfawiseumist.class.php": {
-        "Arrêter le brumisateur": "Detener el nebulizador",
+        "Actif": "Activo",
+        "Couleur": "Color",
+        "Compte à rebours": "Cuenta atrás",
+        "Vitesse Mode": "Modo de velocidad",
+        "Lumiere Mode": "Luz de moda",
+        "Temps Restant": "Tiempo restante",
+        "Rafraichir": "Actualizar",
         "Allumer le brumisateur": "Enciende el nebulizador",
-        "Vitesse à 0": "Velocidad a 0",
-        "Vitesse à 1": "Velocidad a 1",
-        "Vitesse à 2": "Velocidad a 2",
+        "Arrêter le brumisateur": "Detener el nebulizador",
         "1h": "1h",
         "3h": "3h",
         "6h": "6h",
-        "Mode gradient": "Modo gradiente",
-        "Mode quiet": "Modo tranquilo",
-        "Mode flash": "Modo de flash",
-        "Couleur": "Color"
+        "Vitesse": "Velocidad",
+        "Lumiere Style": "Estilo ligero",
+        "Définir Couleur": "Establecer color"
     },
     "info.json": {
         "Plugin pour contrôler les brumisateurs Alfawise": "Complemento para controlar los nebulizadores Alfawise"
